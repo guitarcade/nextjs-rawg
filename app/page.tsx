@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Next.JS 13 Demo App | RAWG Games",
+};
 
 type Game = {
   id: number;
